@@ -19,11 +19,15 @@ Default:
 
 ### Start value stream
 Call module:
-    >>> pressure_meter.start_stream(unit_id) 
+  .. code:: python
+
+      >>> pressure_meter.start_stream(unit_id) 
 
 ### Stop value stream
 Call module:
-    >>> pressure_meter.stop_stream(unit_id)
+  .. code:: python
+
+      >>> pressure_meter.stop_stream(unit_id)
 
 ### Poll Data
 Call module:
