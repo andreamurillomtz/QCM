@@ -3,8 +3,8 @@
 
 ## Documentation
 ------------
-* [Alicat Serial Commands](https://www.alicat.com/wp-content/documents/Alicat-Serial-Primer.pdf)_
-* `General Alicat Information <https://www.alicat.com/using-your-alicat/how-to-issue-serial-commands/>`_
+* [Alicat Serial Commands](https://www.alicat.com/wp-content/documents/Alicat-Serial-Primer.pdf)
+* [General Alicat Information](https://www.alicat.com/using-your-alicat/how-to-issue-serial-commands/)
 
 ## API
 ------------
@@ -12,12 +12,10 @@ These are the methods currently available in Module-Alicat.py
 
 ### Initialization
 Initialize the Pressure Meter object:
-.. code:: python
 
       >>> pressure_meter = alicat_pressure()
 
 Default:
-.. code:: python
 
       >>> alicat_pressure(port="/dev/tty.usbserial-AU0585NK", baudrate=19200)
 
