@@ -5,7 +5,7 @@
 
 ## API Flow Meter
 
-These are the methods currently available in Module-Valve.py
+These are the methods currently available in Module-Valves.py
 
 ### Initialization
 Initialize the Pressure Meter object:
