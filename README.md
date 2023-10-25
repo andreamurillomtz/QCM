@@ -32,16 +32,43 @@ Call module:
 ```   
 >>> pressure_meter.poll_data(unit_id)
 ```
-### Start value stream
-Call module:
-```   
->>> pressure_meter.start_stream(unit_id) 
-```
 ### Tare
 Call module:
 ```
 >>> pressure_meter.tare(unit_id) 
+```
+### Available Gases
+Call module:
+```
+>>> pressure_meter.available_gases(unit_id) 
+```
+### Change Gas
+Call module:
+```
+>>> pressure_meter.change_gas(unit_id)
+```
+### Read Stream
+Call module:
+```
+>>> pressure_meter.read_stream(unit_id) 
+```
+### Change Unit ID
+Call module:
+```
+>>> pressure_meter.change_unit_id(unit_id)
 ````
+### Baudrate
+Call module:
+```
+>>> pressure_meter.baud_rate(unit_id)
+````
+
+
+
+
+
+
+
 
 
 
