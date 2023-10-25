@@ -15,7 +15,8 @@ Initialize the Pressure Meter object:
 ```sh
 pressure_meter = alicat_pressure()
 ```sh
-#### Default:
+
+Default:
 ```sh
 pressure_meter = alicat_pressure(port="/dev/tty.usbserial-AU0585NK", baudrate=19200)
 ```sh
