@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mass_flow</title>
+    <link rel="stylesheet" href="QCM.css">
+    <script src="QCM.js"></script>
+</head>
+<body>
+<h1>
+    QCM
+</h1>
+<hr>
+<nav>
+    <ul class = "sections">
+        <li><a href="index.html" class = "sec">Main</a></li>
+        <li><a href="mass_flow.html" class = "current_sec">Mass Flow</a></li>
+        <li><a href="pressure.html" class = "sec">Pressure</a></li>
+        <li><a href="temperature.html" class = "sec">Temperature</a></li>
+        <li><a href="syringe_pump.html" class = "sec">Syringe Pump</a></li>
+        <li><a href="valves.html" class = "sec">Valves</a></li>
+    </ul>
+</nav>
+<hr>
+<div class = "container_sec">
+    <label for="Gas" class = info_sec>Select Gas:</label>
+    <select name="Gas" id="Gas">
+        <option value="Ar">Ar</option>
+        <option value="Air">Air</option>
+        <option value="CH4">CH4</option>
+        <option value="O2">O2</option>
+    </select>
+    <label for="Units" class="info_sec">Select Units:</label>
+    <select name="Units" id="Units">
+        <option value="mg/s">mg/s</option>
+        <option value="mg/m">mg/m</option>
+        <option value="g/s">g/s</option>
+        <option value="g/m">g/m</option>
+    </select>
+</div>
+</body>
+</html>

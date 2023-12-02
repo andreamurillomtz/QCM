@@ -1,69 +1,129 @@
 * {
     font-family: "Lato", "Open Sans", "Roboto Thin", 'Helvetica Neue', Helvetica, sans-serif;
 }
+body {
+    background-color: #322D2C;
+}
 h1 {
     color: gainsboro;
     font-size: 4.6vw;
     padding-left: 3%;
-    padding-bottom: 1%;
+    padding-bottom: 1px;
 }
 hr {
     height:3%;
     border-width: medium;
-    margin: 3%;
+    margin: 2%;
     background-color: lightgrey;
     vertical-align: baseline;
     display: flex;
 }
-
-.sections {
-    display: flex;
-}
-h3 {
-    color: lightgray;
-    font-size: 2vw;
-    padding: inherit;
+.sections li{
     display: inline-block;
-    margin: 0 auto;
-    width: auto;
+    list-style: none;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+
+}
+.sec {
+    color: lightgray;
+    font-size: 1.4vw;
+    display: flex;
+    margin: 0.3vw 4.6vw 0.3vw;
     height: auto;
+}
+.sec:hover{
+    color: lightgray;
+    font-weight: bold;
+}
+.current_sec {
+    color: lightgray;
+    font-size: 1.4vw;
+    display: flex;
+    margin: 0.3vw 4.6vw 0.3vw;
+    height: auto;
+    font-weight: bold;
 }
 .dashboard{
     display: flex;
-    padding: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 .container {
     border: 2px solid #5B5756;
-    border-radius: 3% 3% 3% 3%;
-    margin: 1%;
+    border-radius: 5% 5% 5% 5%;
+    margin: 0.2% 1.4% 1.4%;
     background-color: lightgray;
     width: 20%;
     float: left;
     display: inline-block;
+    justify-content: space-around;
 }
 img {
-    width: 80%;
+    width: 60%;
     height: auto;
     max-height: 30%;
     object-fit: contain;
     display: block;
     align-items: center;
     justify-content: center;
-    padding: 5% 10% 10%;
+    padding: 5% 20% 2%;
+}
+
+.container .unit_id{
+    color: black;
+    font-size:1.1vw;
+    padding-left: 10%;
+    font-weight: bold;
 }
 
 .container .info{
     color: black;
-    font-size:1.7vw;
-    padding: 10%;
-    font-weight: bold;
+    font-size:1.1vw;
+    padding-left: 10%;
 }
 
 .container_2 {
     border: 2px solid #5B5756;
-    border-radius: 3% 3% 3% 3%;
     background-color: lightgray;
-    width: 94%;
-    height: 60%;
-    margin: 4%;
+    margin-top: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96vw;
+    height: 35vw;
+    border-radius: 3vw 3vw 3vw 3vw;
+    display: block;
+    padding: 2%;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.container_2 .info{
+    color: black;
+    font-size:1.1vw;
+    padding: 0.5% 2% 2%;
+    font-weight: bold;
+}
+.container_sec {
+    border: 2px solid #5B5756;
+    background-color: lightgray;
+    margin-top: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96vw;
+    height: 40vw;
+    border-radius: 3vw 3vw 3vw 3vw;
+    display: block;
+    padding: 2%;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.container_sec .info_sec{
+    color: black;
+    font-size:1.1vw;
+    margin: 10% 2% 2%;
+    font-weight: bold;
 }
