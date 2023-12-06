@@ -127,3 +127,15 @@ img {
     margin: 10% 2% 2%;
     font-weight: bold;
 }
+
+.valve, .valve_title {
+    color: black;
+    font-size: 1.5vw;
+    display: flex;
+    margin: 2vw 2vw 2vw;
+    height: auto;
+    inline-size: auto;
+}
+.valve:hover{
+    font-weight: bold;
+}
